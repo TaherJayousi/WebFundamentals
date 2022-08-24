@@ -1,0 +1,29 @@
+h1 {
+    color: white;
+    background-color: black;
+    text-align: start;
+    font-family: cursive;
+    padding: 5px;
+    margin: 5px;
+}
+span{
+    color: aqua;
+}
+
+h2{
+    color: white;
+    background-color: rebeccapurple;
+    text-align: center;
+    font-family: cursive;
+    padding: 10px;
+    margin: 5px;
+}
+h3 {
+    color: darkblue;
+    text-decoration: underline;
+    background-color: aquamarine;
+    text-align: end;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    margin: 5px;
+}

@@ -1,0 +1,28 @@
+body{
+    margin: 50px;
+}
+#B1{
+color:aqua;
+background-color: white;
+width: 120px;
+height: 25px;
+border-radius: 50px;
+border: 2px solid aqua;
+}
+
+#B2{
+    color: white;
+    background-color: aqua;
+    border-radius: 100%;
+    border: 2px solid red;
+    margin: 10px;
+}
+
+#B3{
+    color: white;
+    background-color: rgb(28, 164, 243);
+    box-shadow: 2px 2px 2px 1px black;
+    width: 150px;
+    height: 30px;
+}
+
