@@ -1,35 +1,204 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+    padding: 0px;
+    margin: 0px;
 }
-.continar{
+
+.container{
     width: 970px;
-    height: 100vh;
+    height: 770px;
+    background-color: rgb(36, 80, 118);
+    border: 1px solid black;
+    margin: 0px auto;
+}
+
+.header {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
 }
-header{
-    background-color:#245076;
-}
-.header1{
-    display: flex;
-    justify-content: flex-start;
-}
-.Python_img{
-    width: 300px;
+
+.title img {
+    width: 270px;
     height: 80px;
+    margin-left: 30px;
+    margin-top: 10px;
 }
-.text_ok{
+
+.header p {
+    color: white;
+    position: relative;
+    left: 80px;
+    top: 10px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header span a {
+    color: rgb(173, 157, 27);
+    text-decoration: underline;
+}
+
+.search {
+    padding: 8px 30px;
+    background-color: rgb(68, 68, 68);
+    border-radius: 5%;
+    margin-right: 15px;
+    box-shadow: 2px 2px 2px;
+}
+
+.header button {
+    margin-left: 2px;
+    height: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color:rgb(36, 80, 118);
+    box-shadow: 2px 2px 2px black;
+    color: white;
+    font-size: 10px;
+}
+
+.header input {
+    height: 20px;
+    width: 130px;
+}
+
+.navBar {
+    border-radius: 2%;
     display: flex;
+    justify-content: space-evenly;
+    width: 800px;
+    height: 40px;
+    background-color: rgb(65, 123, 173);
+    box-shadow: 3px 3px 3px;
+    margin-left: 80px;
+}
+
+.navBar li {
+
+    list-style: none;
+    padding: 10px;
+}
+
+.navBar li a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: flex-end;
 }
-main{
+
+.topics{
+    text-align:center;
+    margin-left: 120px;
+}
+
+.topics a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.topics ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.about-python{
+    width: 570px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.p2 ul li{
+    color: rgb(173, 157, 27);
+    font-size: 20px;
+    margin-top: 15px;
+    list-style: none;
+}
+
+.p2 p{
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.article{
+    height: 180px;
+    width: 970px;
+    background-color: white;
+    position: absolute;
+    top: 500px;
     display: flex;
-    flex: 1;
+    justify-content: space-evenly;
 }
+
+.left-side{
+    width: 300px;
+    text-align: center;
+    margin-right: 100px;
+}
+
+.start, .app{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.left-side .steps{
+    width: 320px;
+    font-size: 12px;
+}
+
+.listOfSteps, .lisOfApp{
+    font-size: 12px;
+    color: rgb(153, 191, 224);
+    list-style: square;
+}
+
+.right-side{
+    text-align: center;
+    width: 300px;
+}
+
+.app-desc{
+    font-size: 12px;
+}
+
+.app-desc span {
+    color: rgb(153, 191, 224);
+}
+
 footer{
+    height: 100px;
+    position: absolute;
+    top: 680px;
+}
+
+.listOfFooter{
     display: flex;
-    align-items: flex-end;
-    background-color: #2A5F8D;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin: 30px;
+}
+
+.listOfFooter a{
+    color: rgb(113, 164, 210);
+    text-decoration: none;
+    margin: 70px;
+    font-size: 15px;
+}
+
+.copyright{
+    color: rgb(113, 164, 210);
+    font-size: 12px;
+    text-align: center;
 }
